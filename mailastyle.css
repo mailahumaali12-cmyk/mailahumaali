@@ -1,0 +1,193 @@
+/* ===== Global Styles ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffaf0;
+  color: #222;
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #ffcc00; /* Yellow */
+  padding: 45px 0;
+  text-align: center;
+  border-bottom: 4px solid orange;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  color: #1e90ff; /* Light Blue */
+  font-size: 2em;
+  margin: 0;
+}
+
+header p {
+  color: #1e90ff;
+  margin: 5px 0 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1e90ff;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+/* ===== About Section ===== */
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #fff8dc;
+}
+
+.about-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.about-text h2 {
+  color: orange;
+  font-size: 1.8em;
+}
+
+.about-text p {
+  line-height: 1.6;
+  color: #333;
+}
+
+.about-img {
+  flex: 1;
+  text-align: center;
+}
+
+.about-img img {
+  width: 250px;
+  border-radius: 15px;
+  border: 3px solid orange;
+}
+
+/* ===== Portfolio Section ===== */
+.portfolio {
+  background-color: #fffaf0;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.portfolio h2 {
+  color: orange;
+  margin-bottom: 30px;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.portfolio .item {
+  background: #f3f56f96;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+
+.portfolio .item:hover {
+  transform: scale(1.05);
+  border-color: black;
+}
+
+.portfolio .item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.portfolio .item p {
+  color: #1e90ff;
+  margin-top: 8px;
+}
+
+/* ===== Blog Section ===== */
+.blog {
+  background-color: #fff8dc;
+  padding: 40px 20px;
+}
+
+.blog h2 {
+  text-align: center;
+  color: orange;
+  margin-bottom: 30px;
+}
+
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.blog article {
+  background: #ffffff;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  width: 300px;
+  margin: 10px;
+  padding: 15px;
+  transition: 0.3s ease;
+}
+
+.blog article:hover {
+  transform: translateY(-5px);
+  border-color: black;
+}
+
+.blog article h3 {
+  color: #1e90ff;
+}
+
+.blog article p {
+  color: #333;
+  line-height: 1.5;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #ffcc00;
+  color: #1e90ff;
+  text-align: center;
+  padding: 45px;
+  border-top: 4px solid orange;
+}
+
+footer a {
+  color: #1e90ff;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: 0.3s ease;
+}
+
+footer a:hover {
+  color: black;
+}
